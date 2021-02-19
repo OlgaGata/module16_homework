@@ -13,15 +13,3 @@ export function getPercent(percent, number)
     }
     else return ('Input negative percent');
 }
-console.log(getPercent(20,200));
-
-
-/*function getPercent(percent, number)
-{
-    if (percent >= 0)
-    {
-        return number / 100 * percent;
-    }
-    else return ('Input negative percent');
-}
-console.log(getPercent(-20,200));*/
